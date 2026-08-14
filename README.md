@@ -4,6 +4,8 @@ A tiny Fabric addon for **Create Fly** that post-processes Display Link output w
 It changes only what is sent to the display target; it does **not** alter package addresses, inventories, or the
 underlying source block.
 
+Chinese player guide: [README.zh-CN.md](README.zh-CN.md)
+
 ## Baseline
 
 This workspace follows Create Fly's `26.2` branch baseline used during development:
