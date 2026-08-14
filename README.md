@@ -60,6 +60,12 @@ The installable mod is `build/libs/create-display-regex-0.1.0-alpha.1.jar`; do n
 `-sources.jar`. Create Fly is resolved from its published Modrinth Maven coordinate
 (`26.2-rc-2-6.0.9-1`).
 
+## Release
+
+Pushing a version tag beginning with `v` runs the release workflow. It builds the project and creates a GitHub
+Release containing only the installable JAR. Tags containing a hyphen, such as `v0.1.0-alpha.1`, are marked as
+pre-releases automatically.
+
 ## Development
 
 For a Chinese development and release guide, see [DEVELOPMENT.zh-CN.md](DEVELOPMENT.zh-CN.md).

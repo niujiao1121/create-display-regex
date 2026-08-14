@@ -79,5 +79,19 @@ build/libs/create-display-regex-0.1.0-alpha.1.jar
 将它复制到目标 Fabric 实例的 `mods/` 目录；不要复制 `-sources.jar`。目标实例需要与本项目基线兼容的
 Minecraft、Fabric Loader、Create Fly 和 Fabric API 版本。
 
-版本号在 `gradle.properties` 的 `mod_version` 中维护。发版时修改该值、完成测试、提交 Git 标签，再将 JAR
-上传至 GitHub Release 或 Modrinth。
+版本号在 `gradle.properties` 的 `mod_version` 中维护。GitHub 已配置自动 Release：推送以 `v` 开头的 Git
+标签时，会自动构建、创建 GitHub Release，并仅上传正式 JAR（不上传 `-sources.jar`）。带连字符的标签，例如
+`v0.1.0-alpha.1`，会自动标记为预发布版本。
+
+发版顺序：
+
+```bash
+./gradlew clean build
+git add gradle.properties
+git commit -m "Release v0.1.0-alpha.1"
+git push
+git tag v0.1.0-alpha.1
+git push origin v0.1.0-alpha.1
+```
+
+推送标签后，在 GitHub 仓库的 Actions 页面查看发布流程；完成后在 Releases 页面下载 JAR。
