@@ -62,7 +62,7 @@ A Java 25 JDK is required.
 ./gradlew build
 ```
 
-The installable mod is `build/libs/create-display-regex-0.1.0.jar`; do not install the accompanying
+The installable mod is `build/libs/create-display-regex-0.1.1.jar`; do not install the accompanying
 `-sources.jar`. Create Fly is resolved from its published Modrinth Maven coordinate
 (`26.2-rc-2-6.0.9-1`).
 
@@ -107,8 +107,8 @@ To release a version, set `mod_version` in `gradle.properties`, commit the chang
 For example:
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
 GitHub Actions builds the mod and attaches only the installable JAR to the GitHub Release.
