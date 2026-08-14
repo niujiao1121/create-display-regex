@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.createfly.displayregex.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "DisplayLinkScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "create_display_regex.gui.title": "显示链接器正则处理",
+  "create_display_regex.gui.open": "正则文本处理",
+  "create_display_regex.gui.enabled": "已启用正则处理",
+  "create_display_regex.gui.disabled": "已禁用正则处理",
+  "create_display_regex.gui.pattern": "匹配正则",
+  "create_display_regex.gui.pattern_hint": "例如：^[^/]+/",
+  "create_display_regex.gui.replacement": "替换为",
+  "create_display_regex.gui.replacement_hint": "留空 = 删除匹配部分",
+  "create_display_regex.gui.usage": "匹配到的内容会被替换；替换为留空即可删除。",
+  "create_display_regex.gui.example": "示例：AAA/BBB/CCC，匹配 ^[^/]+/，替换留空",
+  "create_display_regex.gui.example_result": "结果：BBB/CCC",
+  "create_display_regex.gui.valid": "正则有效",
+  "create_display_regex.gui.invalid": "正则无效：%s",
+  "create_display_regex.gui.cancel": "取消",
+  "create_display_regex.gui.apply": "应用"
+}

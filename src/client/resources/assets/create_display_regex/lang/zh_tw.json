@@ -1,0 +1,17 @@
+{
+  "create_display_regex.gui.title": "顯示連結器正規表示式處理",
+  "create_display_regex.gui.open": "正規表示式文字處理",
+  "create_display_regex.gui.enabled": "已啟用正規表示式處理",
+  "create_display_regex.gui.disabled": "已停用正規表示式處理",
+  "create_display_regex.gui.pattern": "比對正規表示式",
+  "create_display_regex.gui.pattern_hint": "例如：^[^/]+/",
+  "create_display_regex.gui.replacement": "替換為",
+  "create_display_regex.gui.replacement_hint": "留空 = 刪除符合部分",
+  "create_display_regex.gui.usage": "符合的內容會被替換；替換為留空即可刪除。",
+  "create_display_regex.gui.example": "範例：AAA/BBB/CCC，比對 ^[^/]+/，替換留空",
+  "create_display_regex.gui.example_result": "結果：BBB/CCC",
+  "create_display_regex.gui.valid": "正規表示式有效",
+  "create_display_regex.gui.invalid": "正規表示式無效：%s",
+  "create_display_regex.gui.cancel": "取消",
+  "create_display_regex.gui.apply": "套用"
+}

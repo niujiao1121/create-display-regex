@@ -1,0 +1,17 @@
+{
+  "create_display_regex.gui.title": "Display Link Regex",
+  "create_display_regex.gui.open": "Regex text processing",
+  "create_display_regex.gui.enabled": "Regex processing enabled",
+  "create_display_regex.gui.disabled": "Regex processing disabled",
+  "create_display_regex.gui.pattern": "Pattern",
+  "create_display_regex.gui.pattern_hint": "e.g. ^[^/]+/",
+  "create_display_regex.gui.replacement": "Replacement",
+  "create_display_regex.gui.replacement_hint": "Empty = delete matches",
+  "create_display_regex.gui.usage": "Matches are replaced; leave Replacement empty to delete them.",
+  "create_display_regex.gui.example": "Example: AAA/BBB/CCC; pattern ^[^/]+/; replacement empty",
+  "create_display_regex.gui.example_result": "Result: BBB/CCC",
+  "create_display_regex.gui.valid": "Valid regex",
+  "create_display_regex.gui.invalid": "Invalid: %s",
+  "create_display_regex.gui.cancel": "Cancel",
+  "create_display_regex.gui.apply": "Apply"
+}
