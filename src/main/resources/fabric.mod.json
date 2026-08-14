@@ -6,6 +6,7 @@
   "description": "Adds regex post-processing to Create Fly Display Links without modifying the source data.",
   "authors": ["niujiao1121"],
   "license": "MIT",
+  "icon": "assets/create_display_regex/icon.png",
   "environment": "*",
   "mixins": [
     "create_display_regex.mixins.json",
